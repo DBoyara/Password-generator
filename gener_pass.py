@@ -33,4 +33,4 @@ def main():
 if __name__ == '__main__':
     count_res = count_bs + count_ls + count_ns + count_ss
     pass_result = main()
-    print(f'Your password: {pass_result} with {count_res} symbol')
+    print(f'Your password: {pass_result} with {count_res} symbols')
