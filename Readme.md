@@ -16,13 +16,13 @@ Have a result in console:
 
 But you can use the following parameters:
 
-_-u Required number of uppercase characters, **default=5**_
+_**-u** Required number of uppercase characters, **default=5**_
 
-_-l The required number of lowercase characters, **default=4**_
+_**-l** Required number of lowercase characters, **default=4**_
 
-_-n The required number of digits, **default=3**_
+_**-n** Required number of digits, **default=3**_
 
-_-s Required number of special characters, **default=2**_
+_**-s** Required number of special characters, **default=2**_
 
 For example:
 
