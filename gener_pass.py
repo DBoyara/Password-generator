@@ -3,6 +3,9 @@
 
 import argparse
 import random
+import logging
+
+logging.basicConfig(format="%(message)s", level=logging.INFO)
 
 
 def range_symbols(symbol_dict: dict) -> str:
@@ -55,4 +58,4 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    print(main(args.upper_case, args.lower_case, args.numbers, args.special_char, args.only_pass))
+    logging.info(main(args.upper_case, args.lower_case, args.numbers, args.special_char, args.only_pass))
